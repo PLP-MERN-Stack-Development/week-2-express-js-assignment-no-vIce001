@@ -212,8 +212,10 @@ Headers: x-api-key: 12345-KLMNO-67890-PQRST
 **Response:**
 ```json
 [
-  { "_id": "electronics", "count": 2 },
-  { "_id": "furniture", "count": 2 }
+   { "_id": "sportswear", "count": 3},
+   { "_id": "furniture", "count": 3},
+   { "_id": "kitchen", "count": 1},
+   { "_id": "electronics", "count": 3}
 ]
 ```
 
@@ -244,4 +246,4 @@ MIT
 MONGO_URI=mongodb://localhost:27017/productdb
 API_KEY=12345-KLMNO-67890-PQRST
 PORT=3000
-```
+
